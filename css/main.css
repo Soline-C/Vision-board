@@ -1,0 +1,68 @@
+body{
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    background: url("../img/background.png");
+    background-size: cover;
+    margin: 30px 85px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    /*outline: auto;*/
+    font-size: 20px;
+}
+
+.small-block{
+    height: 210px;
+    padding: 20px 40px;
+}
+.large-block{
+    height: 430px;
+    padding: 60px 40px;
+}
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
+.light-bg{
+    background-color: white;
+}
+.darg-bg{
+    background-color:#3B3B3B; 
+}
+
+.title h5{
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 8px;
+}
+.title{
+    color: white;
+    font-size: 38px;
+    line-height: 0px;
+}
+
+.block strong{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.block p span{
+    background: #FFF44F;
+    padding: 5px 15px;
+}
